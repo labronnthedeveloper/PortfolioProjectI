@@ -20,6 +20,7 @@ header {
 
 main {
   font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 14px;
   padding: 120px;
   text-align: center;
   background-image: linear-gradient(to right, #9BBACC , #9BBACC) ;  
@@ -33,6 +34,7 @@ main {
 /* Since the majority of the links happen towards the end of our main before the footer, I took this section to use pseudo-classes to set the colors for the links, and also to remove the underline that defaults with the links. */
 a {
   text-decoration: none;
+  background: #92EEEE;
 }
 a:link { color: blue;  }
 a:visited { color: darkblue;  }
@@ -52,6 +54,7 @@ footer {
   font-family: "Goudy Bookletter 1911", sans-serif;
   margin-top: 26px;
   margin-bottom: 26px;
+  
   color: white;
   text-align: center;
 }
